@@ -14,6 +14,7 @@
 		0C1EA34A20195D170010E5F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C1EA34820195D170010E5F3 /* LaunchScreen.storyboard */; };
 		0C1EA35520195D170010E5F3 /* TableViewPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1EA35420195D170010E5F3 /* TableViewPracticeTests.swift */; };
 		0C1EA36020195D170010E5F3 /* TableViewPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1EA35F20195D170010E5F3 /* TableViewPracticeUITests.swift */; };
+		0C1EA370201961570010E5F3 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1EA36F201961570010E5F3 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0C1EA35B20195D170010E5F3 /* TableViewPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C1EA35F20195D170010E5F3 /* TableViewPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewPracticeUITests.swift; sourceTree = "<group>"; };
 		0C1EA36120195D170010E5F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C1EA36F201961570010E5F3 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				0C1EA34620195D170010E5F3 /* Assets.xcassets */,
 				0C1EA34820195D170010E5F3 /* LaunchScreen.storyboard */,
 				0C1EA34B20195D170010E5F3 /* Info.plist */,
+				0C1EA36F201961570010E5F3 /* CustomTableViewCell.swift */,
 			);
 			path = TableViewPractice;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C1EA370201961570010E5F3 /* CustomTableViewCell.swift in Sources */,
 				0C1EA34220195D170010E5F3 /* ViewController.swift in Sources */,
 				0C1EA34020195D170010E5F3 /* AppDelegate.swift in Sources */,
 			);
